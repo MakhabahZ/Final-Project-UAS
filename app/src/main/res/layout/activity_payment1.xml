@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4DFBA"
+    tools:context=".payment1">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="470dp"
+        android:background="@drawable/btn"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="45dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Nama"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="No Hp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Alamat"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metode Pembayaran"
+            android:paddingTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <RadioGroup
+            android:id="@+id/rb"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRI"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCA"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-15dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COD (Bayar di tempat)"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-15dp"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opsi Pengiriman"
+            android:paddingTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <RadioGroup
+            android:id="@+id/rbb"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JNE Reguler"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J&amp;T Express"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-15dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sicepat Reg"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-15dp"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="Checkout"
+            android:onClick="cekout"/>
+
+    </LinearLayout>
+</LinearLayout>

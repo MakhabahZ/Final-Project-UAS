@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/atas.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/atas2.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/bawah.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/birusukses.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/btn.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/buy.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/cart.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/form.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/form2.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/form3.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/form4.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/loc.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/promo.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/pupoler.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/drawable/search.xml" value="0.1925438596491228" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_arwana.xml" value="0.2364179037174423" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_cart.xml" value="0.17894736842105263" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_checkout.xml" value="0.2364179037174423" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_home.xml" value="0.35820894502642775" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_ikanlaut.xml" value="0.17894736842105263" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_main.xml" value="0.1984375" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_payment1.xml" value="0.2364179037174423" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/layout/activity_sukses.xml" value="0.2364179037174423" />
+        <entry key="..\:/Android Studio/Fishop2/app/src/main/res/menu/search_menu.xml" value="0.17910447251321387" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/form.xml" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
